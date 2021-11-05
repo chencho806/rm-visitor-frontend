@@ -1,0 +1,160 @@
+
+
+
+
+
+
+
+
+table, td {
+  font-size: 0.9em;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+
+
+
+.showList {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  font-family: Helvetica, sans-serif;
+  
+  
+}
+
+
+.Links {
+  color: black;
+  margin: 1rem;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+.Title {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+  
+}
+  
+  
+
+.Form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  min-height: 10rem;
+  max-width: 7rem;
+  margin: 1rem auto;
+}
+
+
+.videoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+  
+}
+
+.Videos {
+  padding: 20px;
+}
+
+
+section {
+  height: 100vh;
+}
+
+  
+  .homeImage {
+    width: 85vh;
+    height: auto;
+    padding-top: 15px;
+  }
+  
+  .merchImage {
+    width: 85vh;
+    height: auto;
+    padding-top: 15px;
+  }
+  
+  
+  .showListImage {
+    
+    max-width: 85vh;
+    height: auto;
+    padding-top: 15px;
+    
+    
+  }
+
+  .videosImage {
+    width: 85vh;
+    height: auto;
+    padding-top: 15px;
+  }
+  
+  .listenImage {
+    width: 85vh;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  
+  .contactImage {
+    width: 85vh;
+    height: auto;
+    padding-top: 15px;
+  }
+
+  .contactsContainer {
+    // height: 6vh;
+    padding-top: 14vh;
+    padding-bottom: 16vh;
+  
+  }
+  
+
+  nav {
+    margin-top: -25px
+  }
+
+ .Header {
+   margin-top: -10px;
+ }
+
+
+ .Footer {
+   height: 35px;
+  // padding-top: 50px;
+ }
+
+ .flyerImage {
+  width: 60vh;
+  height: auto;
+  padding-top: 15px;
+
+ }
+
+ .RM {
+   font-weight: lighter;
+ }
+
+ h1, h3, p {
+  font-family: Helvetica, sans-serif;
+ }
+
+ .player {
+   padding-bottom: 5vh;
+   
+ }
