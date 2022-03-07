@@ -1,8 +1,16 @@
+import { Container, Image } from "react-bootstrap"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const Home =(props) => {
     return (
-        <div className="imgDiv">
-            <img src="https://i.imgur.com/SNmrUIl.jpg" alt="" className="homeImage"/>
-        </div>
+        <Container style={{display: 'block', maxWidth: '900px', padding: 30}}>
+            <Image
+                src="https://i.imgur.com/SNmrUIl.jpg"
+                fluid
+            />
+        </Container>
+
     )
 }
 
