@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const ShowsIndex =(props) => {
+const ShowsIndex = (props) => {
 
     
 
@@ -30,7 +30,7 @@ const ShowsIndex =(props) => {
             </tr>
             </tbody>
             </table>
-        ));
+        )).sort().reverse();
     }
         
             

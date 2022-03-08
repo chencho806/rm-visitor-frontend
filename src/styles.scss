@@ -36,24 +36,19 @@ table, td {
 }
 
 .Title {
-  text-decoration: none;
   color: black;
-  font-size: 24px;
-  font-family: Helvetica, sans-serif;
-  
+  text-decoration: none;
 }
-  
-  
 
-.Form {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  min-height: 10rem;
-  max-width: 7rem;
-  margin: 1rem auto;
+
+.RM {
+  font-weight: lighter;
+  color: black;
+  font-size: 50px;
+  font-family: Helvetica, sans-serif;
 }
+  
+  
 
 
 .videoContainer {
@@ -70,24 +65,6 @@ table, td {
   padding: 20px;
 }
 
-
-section {
-  height: 100vh;
-}
-
-  
-  .homeImage {
-    width: 85vh;
-    height: auto;
-    padding-top: 15px;
-  }
-  
-  .merchImage {
-    width: 85vh;
-    height: auto;
-    padding-top: 15px;
-  }
-  
   
   .showListImage {
     
@@ -125,7 +102,7 @@ section {
   }
   
 
-  nav {
+  .Nav {
     margin-top: 10px
   }
 
@@ -134,11 +111,7 @@ section {
  }
 
 
- .Footer {
-   height: 35px;
-   margin-bottom: 20px;
-  // padding-top: 50px;
- }
+ 
 
  .flyerImage {
   width: 60vh;
@@ -147,9 +120,7 @@ section {
 
  }
 
- .RM {
-   font-weight: lighter;
- }
+ 
 
  h1, h3, p {
   font-family: Helvetica, sans-serif;

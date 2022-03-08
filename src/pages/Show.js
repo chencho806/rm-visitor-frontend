@@ -9,10 +9,13 @@ const Show =(props) => {
     
     return(
         <div className="show">
+            <body>
+                
             <img src={show?.img} alt={show?.date} className="flyerImage"/>
             <h1>{show?.date}</h1>
             <h3>{show?.venue}</h3>
             <h3>{show?.info}</h3>
+            </body>
             
         </div>
         
